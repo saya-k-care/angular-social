@@ -1,0 +1,250 @@
+{
+    "BOOT": "Starting application...",
+    "NAVBAR": {
+        "SEARCH_PEOPLE": "Search people"
+    },
+    "FOOTER": {
+        "POST": "New post",
+        "INDEX": "Home",
+        "PROFILE": "Profile",
+        "NOTIFICATIONS": "Notifications",
+        "SETTINGS": "Settings",
+        "USERS": "Users",
+        "REPORTS": "Reports"
+    },
+    "NEWPOST": {
+        "TITLE": "Make a new post",
+        "MESSAGE": "Post message",
+        "PLACEHOLDER": "Write the text of the publication. Remember that it can only have a maximum of 200 characters.",
+        "IMAGE": "Post image",
+        "DROP_IMAGE": "Drag and drop the image here",
+        "PUBLISH_BUTTON": "Publish",
+        "MODAL_ERROR_TITLE": "Error",
+        "MODAL_ERROR_TEXT": "The publication must have a text or a photo"
+    },
+    "INDEX": {
+        "FRIENDS_FEED": "Friends",
+        "FOLLOWING_FEED": "Following",
+        "TREND_FEED": "Trend",
+        "NO_MORE_POSTS": "You have already seen all the posts in this feed today 🙌",
+        "NO_FOLLOWING_FEED": "You don't follow anyone, why don't you look for someone you are interested in? 🤔",
+        "NO_TREND_FEED": "There are no trending posts at the moment"
+    },
+    "ASIDE": {
+        "FEATURED_POST": "Featured post",
+        "PINNED_POST": "Pinned post",
+        "USERS_MAYBE": "Users you may know"
+    },
+    "PROFILE": {
+        "NUMBER_OF_POSTS": "Posts",
+        "NUMBER_OF_FRIENDS": "Friends",
+        "NUMBER_OF_FOLLOWERS": "Followers",
+        "NUMBER_OF_FOLLOWING": "Following",
+        "FRIENDS_SINCE": "Friends since ",
+        "DAYS_UNTIL_ELIMINATION": "This account will be deleted in {{value}} day/s",
+        "EDIT_PROFILE": "Edit profile",
+        "LIKED_POSTS_BUTTON": "See posts you liked",
+        "ADD_FRIEND": "Add friend",
+        "SEND_MESSAGE": "Send message",
+        "CALL": "Call",
+        "DELETE": "Delete from friends",
+        "FOLLOW": "Follow",
+        "STOP_FOLLOWING": "Stop following",
+        "POSTS": "Posts",
+        "NO_POSTS": "This user has no posts, it is empty!",
+        "GET_MORE_BTN": "Get more posts",
+        "EDIT": {
+            "TITLE": "Profile details",
+            "PICTURE_TITLE": "Profile picture",
+            "PICTURE_DROP": "Drag and drop the profile picture here",
+            "DESCRIPTION_TITLE": "Description",
+            "DESCRIPTION_PLACEHOLDER": "Write a description of yourself. Remember that it can only have a maximum of 200 characters.",
+            "NOTE": "Note: If you want to change the login credentials please go to the Settings tab.",
+            "PHOTO_BUTTON": "Select a profile photo",
+            "EDIT_BUTTON": "Edit profile",
+            "APPLY_BUTTON": "Apply",
+            "CANCEL_BUTTON": "Cancel",
+            "CHANGES_SAVED": "Changes saved"
+        },
+        "LIKED_POSTS": {
+            "NO_POSTS": "You haven't liked any post yet, what are you waiting for?"
+        },
+        "USERS": {
+            "TITLE": "Users",
+            "NON_FRIENDS_TITLE": "This user has no friends",
+            "NON_FRIENDS_TEXT": "What if you send him a friend request 😀?",
+            "NON_FRIENDS_KEYCLOAK_TITLE": "You have no friends",
+            "NON_FRIENDS_KEYCLOAK_TEXT": "There's no time to lose, add someone!",
+
+            "NON_FOLLOWERS_TITLE": "This user has no followers",
+            "NON_FOLLOWERS_TEXT": "What if you follow him? 🤔",
+            "NON_FOLLOWERS_KEYCLOAK_TITLE": "You don't have followers",
+            "NON_FOLLOWERS_KEYCLOAK_TEXT": "It's time to make the next featured post ⌚",
+
+            "NON_FOLLOWING_TITLE": "This user does not follow anyone",
+            "NON_FOLLOWING_TEXT": "What if you recommend someone to him/her? 🤔",
+            "NON_FOLLOWING_KEYCLOAK_TITLE": "You don't follow anyone",
+            "NON_FOLLOWING_KEYCLOAK_TEXT": "Why don't you look for someone you are interested in? 🤔"
+        }
+    },
+    "NOTIFICATIONS": {
+        "TITLE": "Notifications",
+        "DELETE_ALL": "Delete all",
+        "NEW_NOTIF_TITLE": "New notification",
+        "NEW_NOTIF_TEXT": "Please restart the page",
+        "friend_type": {
+            "TITLE": "¡New friend!",
+            "TEXT": "is now your friend"
+        },
+        "like_post_type": {
+            "TITLE": "Your post received a like",
+            "TEXT": "¡Check it!"
+        },
+        "message_type": {
+            "TITLE": "sent you a message",
+            "TEXT": "Touch to see it"
+        },
+        "friendship_type": {
+            "TITLE": "New friend request",
+            "TEXT": "sent you a friend request"
+        },
+        "comment_type": {
+            "TITLE": "replied to your comment",
+            "TEXT": "Touch to see it"
+        },
+        "followership_type": {
+            "TITLE": "New follower",
+            "TEXT": "started following you"
+        },
+        "delete_account_type": {
+            "TITLE": "Account deletion process started",
+            "TEXT": "If it is an error, please contact our support"
+        },
+        "NOTIFICATIONS_DISABLED": "Notifications are disabled. Activate them in the Settings tab to view them.",
+        "NO_NOTIFICATIONS": "You have no notifications at the moment",
+        "NO_NOTIFICATIONS_TO_DELETE_TITLE": "You have no notifications to delete",
+        "NO_NOTIFICATIONS_TO_DELETE_TEXT": "Remember that friend requests cannot be deleted, only rejected"
+    },
+    "SETTINGS": {
+        "TITLE": "Settings",
+        "NOTIFICATIONS_TITLE": "Notifications",
+        "NOTIFICATIONS_TEXT": "Turn notifications on/off (will no longer appear in the Notifications tab)",
+        "LANGUAGE_TITLE": "Language",
+        "LANGUAGE_TEXT": "Change the system language",
+        "ACCOUNT_TITLE": "Account management",
+        "ACCOUNT_TEXT": "Manage account credentials",
+        "ACCOUNT_BUTTON": "Manage user",
+        "ADMIN_TITLE": "Admin dashboard",
+        "ADMIN_TEXT": "Manage users and reports",
+        "ADMIN_BUTTON": "Go",
+        "LOGOUT": "Logout",
+        "DELETE_ACCOUNT": {
+            "TITLE": "Start the account deletion process",
+            "TEXT": "You will have 14 days to reverse the process",
+            "BUTTON": "Delete account",
+            "MODAL_TITLE": "Are you sure?",
+            "MODAL_TEXT": "You will have 14 days to reverse this action by contacting our support. After this interval, the account will be completely deleted.",
+            "MODAL_CONFIRM_BUTTON": "Start process",
+            "MODAL_CANCEL_BUTTON": "Cancel"
+        }
+    },
+    "SEARCH": {
+        "USERS_TITLE": "Users found",
+        "NON_USERS_TITLE": "No users found",
+        "NON_USERS_TEXT": "Try another name for the search"
+    },
+    "FULL_POST": {
+        "COMMENTS_TITLE": "Comments",
+        "CREATE_COMMENT_PLACEHOLDER": "Comment",
+        "NO_COMMENTS": "No comments, be the first!"
+    },
+    "USER": {
+        "DELETE_MODAL_TITLE": "Are you sure?",
+        "DELETE_MODAL_TEXT": "You will be able to send a friend request to this user again.",
+        "DELETE_MODAL_SAVE_BTN": "Delete",
+        "DELETE_MODAL_CANCEL_BTN": "Cancel"
+    },
+    "POST": {
+        "DELETE_MODAL_TITLE": "Are you sure?",
+        "DELETE_MODAL_TEXT": "You will not be able to reverse this action",
+        "DELETE_MODAL_BUTTON_DELETE": "Delete",
+        "DELETE_MODAL_BUTTON_CANCEL": "Cancel",
+        "REPORT_MODAL_TITLE": "Why do you want to report this publication?",
+        "REPORT_MODAL_PLACEHOLDER": "Select a reason",
+        "REPORT_MODAL_ERROR": "You need to select a valid option",
+        "REPORT_MODAL_EXTRAINFORMATION_TITLE": "Do you want to write extra information about the report?",
+        "REPORT_MODAL_EXTRAINFORMATION_PLACEHOLDER": "This is optional. Max. 200 characters.",
+        "REPORT_MODAL_SUCCESS": "The publication has been successfully reported",
+        "REPORT_MODAL_BUTTON_REPORT": "Report",
+        "REPORT_MODAL_BUTTON_CANCEL": "Cancel"
+    },
+    "MESSAGE": {
+        "DELETE_MODAL_TITLE": "Are you sure you want to delete this message?",
+        "DELETE_MODAL_TEXT": "This action cannot be undone",
+        "DELETE_MODAL_BUTTON_DELETE": "Delete",
+        "DELETE_MODAL_BUTTON_CANCEL": "Cancel"
+    },
+    "COMMENT": {
+        "SEE_ANSWERS_BTN": "See replies",
+        "REPLY_BTN": "Reply",
+        "REPLY_MODAL_TITLE": "Write a reply to this comment",
+        "REPLY_MODAL_TEXT": "Max. 100 characters.",
+        "REPLY_MODAL_REPLY_BUTTON": "Reply",
+        "REPLY_MODAL_CANCEL_BUTTON": "Cancel"
+    },
+    "CHAT": {
+        "INVALID_MESSAGE_MODAL_TITLE": "Error",
+        "INVALID_MESSAGE_MODAL_TEXT": "The message must have a text or a photo",
+        "INVALID_FORMAT": "Invalid file format, must be an image"
+    },
+    "CALL": {
+        "IS_CALLING_YOU_TITLE": " is calling you",
+        "IS_CALLING_YOU_TEXT": "Do you want to take the call?",
+        "IS_CALLING_YOU_CONFIRM_BUTTON": "Yes",
+        "IS_CALLING_YOU_REJECT_BUTTON": "No",
+        "JOINING_CALL": "Joining the call...",
+        "USER_DISCONNECTED": "The user is offline",
+        "USER_ON_CALL": "The user is on another call",
+        "CALLING_TITLE": "Calling ",
+        "CALLING_TEXT": "Please wait...",
+        "FRIEND_REJECTED": "The user rejected the call",
+        "END_CALL": "The user ended the call"
+    },
+    "WEBSOCKET": {
+        "NEW_NOTIFICATION": "New notification",
+        "CONNECTED_STATUS": "Online",
+        "DISCONNECTED_STATUS": "Offline",
+        "WRITING_STATUS": "Writing...",
+        "ONCALL_STATUS": "On call"
+    },
+    "LANGUAGES": {
+        "en": "English",
+        "es": "Español",
+        "pt": "Português (BR)"
+    },
+    "ERROR": {
+        "ROLE_TITLE": "Denied access",
+        "ROLE_TEXT": "You don't have access to this resource"
+    },
+    "ADMIN": {
+        "DELETE_PROCESS": {
+            "BUTTON": "Start the deletion process",
+            "MODAL_TITLE": "Are you sure you want to start the accounts deletion process?",
+            "MODAL_TEXT": "This process will delete all accounts that have started the account deletion process 14 days ago or more. It may take some time.",
+            "COMPLETED_MODAL_TITLE": "The accounts deletion process is finished"
+        },
+        "USERS_PLACEHOLDER": "Search by name, surname or username",
+        "NO_USERS_SEARCHED": "Use the search engine to find users",
+        "NO_USERS_FOUND": "No users found",
+        "NO_REPORTS_FOUND": "No reports found",
+        "REPORTS_DELETE_POST_TITLE": "Are you sure you want to delete this publication?",
+        "REPORTS_DELETE_REPORT_TITLE": "Are you sure you want to delete this report?",
+        "REPORTS_DELETE_TEXT": "This action cannot be undone",
+        "REPORTS_DELETE_MODAL_BTN_DELETE": "Delete",
+        "REPORTS_DELETE_MODAL_BTN_CANCEL": "Cancel",
+        "REPORTS_REASON": "Reason",
+        "REPORTS_USER_WHO_REPORTED": "User who reported",
+        "REPORTS_REPORTED_POST": "Reported post",
+        "REPORTS_EXTRA_INFORMATION": "Extra information"
+    }
+}

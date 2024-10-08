@@ -1,0 +1,50 @@
+<section id="section-notifications">
+    <header>
+        <h1>{{'NOTIFICATIONS.TITLE' | translate}}</h1>
+        <button class="button delete-all-button" *ngIf="areNotificationsEnabled && notifications.length > 0"
+            (click)="deleteAllNotifications()">
+            <i class="fa-solid fa-trash"></i> {{'NOTIFICATIONS.DELETE_ALL' | translate}}
+        </button>
+    </header>
+
+    <div id="notifications" *ngIf="areNotificationsEnabled">
+        <p *ngIf="notifications.length == 0">{{'NOTIFICATIONS.NO_NOTIFICATIONS' | translate}}</p>
+        <div class="notification-box" *ngFor="let notification of notifications">
+            <i class="fa-solid fa-bell notif-icon" [ngStyle]="{'opacity':getOpacity(notification)}"></i>
+            <div class="notification-data" (click)="viewNotification(notification)"  [ngStyle]="{'opacity':getOpacity(notification)}">
+                <h2>
+                    <ng-container *ngIf="notification.type == 'message_type'">
+                        {{notification.userTransmitter.name}} {{notification.userTransmitter.surname}}
+                    </ng-container> 
+                    <ng-container *ngIf="notification.type == 'comment_type'">
+                        {{notification.comment.user.name}} {{notification.comment.user.surname}}
+                    </ng-container> 
+                    {{'NOTIFICATIONS.' + notification.type + '.TITLE' | translate}}
+                </h2>
+
+                <p>
+                    <ng-container *ngIf="notification.type=='friend_type'">
+                        {{notification.friend.name}} {{notification.friend.surname}} 
+                    </ng-container>
+                    <ng-container *ngIf="notification.type=='friendship_type'">
+                        {{notification.friendship.userTransmitter.name}} {{notification.friendship.userTransmitter.surname}} 
+                    </ng-container>
+                    <ng-container *ngIf="notification.type=='followership_type'">
+                        {{notification.followership.userFollower.name}} {{notification.followership.userFollower.surname}} 
+                    </ng-container>
+                    {{'NOTIFICATIONS.' + notification.type + '.TEXT' | translate}}
+                </p>
+            </div>
+            
+            <button *ngIf="notification.type!='friendship_type'" class="button delete-button" (click)="deleteNotification(notification)"><i class="fa-solid fa-trash"></i></button>
+            <div *ngIf="notification.type=='friendship_type'" class="friendship-buttons">
+                <button class="button delete-button" (click)="acceptFriendRequest(notification)"><i class="fa-solid fa-check"></i></button>
+                <button class="button delete-button" (click)="deleteNotification(notification)"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <p *ngIf="!areNotificationsEnabled" class="notifications-disabled">
+        {{'NOTIFICATIONS.NOTIFICATIONS_DISABLED' | translate}}
+    </p>
+</section>

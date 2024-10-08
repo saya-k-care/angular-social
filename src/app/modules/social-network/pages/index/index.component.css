@@ -1,0 +1,104 @@
+#links {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background: #2e2e36;
+}
+
+#links button {
+    border: none;
+    outline: none;
+    font-size: 1.25rem;
+    height: 100%;
+    cursor: pointer;
+    transition: .3s;
+    padding: 10px;
+}
+
+.old-feed-btn {
+    background: #7f5af0;
+    font-size: 1.25rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 25px;
+    width: calc(100% - 50px); /*100% - margin left and right*/
+    margin-left: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.old-feed-btn:hover {
+    background: #6f4ed1;
+    transition: .3s;
+}
+
+#no-following-posts {
+    height: calc(100vh - 60px - 60px - 40px - 20px); /*100vh - navbar height - footer height - index header height - section padding*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+#no-following-posts img {
+    height: auto;
+    width: 100%;
+    margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+    #section-publications {
+        display: flex;
+    }
+
+    #links {
+        margin-top: 0;
+        height: 50px;
+    }
+
+    #publications {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .old-feed-btn {
+        font-size: 1.2rem;
+    }
+
+    #no-following-posts img {
+        height: auto;
+        width: 80%;
+    }
+}
+
+@media (min-width: 1038px) {
+    #publications {
+        width: 75%;
+    }
+
+    .old-feed-btn {
+        font-size: 1rem;
+        width: 30%;
+    }
+
+    #no-following-posts img {
+        height: 60%;
+        width: auto;
+    }
+
+    aside img {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

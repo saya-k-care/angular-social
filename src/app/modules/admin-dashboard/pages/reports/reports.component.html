@@ -1,0 +1,18 @@
+<section id="section-reports">
+    <div id="reports">
+        <div id="report-cards">
+            <report-card-comp *ngFor="let report of reports" [report]="report"></report-card-comp>
+        </div>
+
+        <paginator-admin-comp *ngIf="paginator && !paginator.empty" [paginator]="paginator" [route]="'reports'"></paginator-admin-comp>
+
+        <div id="no-reports" *ngIf="reports && reports.length==0">
+            <p>{{'ADMIN.NO_REPORTS_FOUND' | translate}}</p>
+            <img src="../../../../../assets/img/no_posts_bg.svg" alt="No reports found">
+        </div>
+    </div>
+
+    <aside>
+        <img src="../../../../../assets/img/reports_bg.svg" alt="">
+    </aside>
+</section>

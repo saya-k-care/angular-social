@@ -1,0 +1,250 @@
+{
+    "BOOT": "Iniciando la aplicación...",
+    "NAVBAR": {
+        "SEARCH_PEOPLE": "Buscar personas"
+    },
+    "FOOTER": {
+        "POST": "Nueva publicación",
+        "INDEX": "Inicio",
+        "PROFILE": "Perfil",
+        "NOTIFICATIONS": "Notificaciones",
+        "SETTINGS": "Configuración",
+        "USERS": "Usuarios",
+        "REPORTS": "Reportes"
+    },
+    "NEWPOST": {
+        "TITLE": "Hacer una nueva publicación",
+        "MESSAGE": "Mensaje de la publicación",
+        "PLACEHOLDER": "Escribe el texto de la publicación. Recuerda que solo puede tener un máximo de 200 caracteres.",
+        "IMAGE": "Imagen de la publicación",
+        "DROP_IMAGE": "Arrastra y suelta la imagen aquí",
+        "PUBLISH_BUTTON": "Publicar",
+        "MODAL_ERROR_TITLE": "Error",
+        "MODAL_ERROR_TEXT": "La publicación debe tener un texto o una foto"
+    },
+    "INDEX": {
+        "FRIENDS_FEED": "Amigos",
+        "FOLLOWING_FEED": "Siguiendo",
+        "TREND_FEED": "Tendencia",
+        "NO_MORE_POSTS": "Ya has visto todas las publicaciones de este feed de hoy 🙌",
+        "NO_FOLLOWING_FEED": "No sigues a nadie, ¿por qué no buscas a alguien de tu interés? 🤔",
+        "NO_TREND_FEED": "No hay publicaciones en tendencia en este momento"
+    },
+    "ASIDE": {
+        "FEATURED_POST": "Publicación destacada",
+        "PINNED_POST": "Publicación anclada",
+        "USERS_MAYBE": "Quizá conozcas a"
+    },
+    "PROFILE": {
+        "NUMBER_OF_POSTS": "Publicaciones",
+        "NUMBER_OF_FRIENDS": "Amigos",
+        "NUMBER_OF_FOLLOWERS": "Seguidores",
+        "NUMBER_OF_FOLLOWING": "Seguidos",
+        "FRIENDS_SINCE": "Amigos desde ",
+        "DAYS_UNTIL_ELIMINATION": "Esta cuenta será eliminada en {{value}} día/s",
+        "EDIT_PROFILE": "Editar perfil",
+        "LIKED_POSTS_BUTTON": "Ver publicaciones que te gustaron",
+        "ADD_FRIEND": "Agregar amigo",
+        "SEND_MESSAGE": "Enviar mensaje",
+        "CALL": "Llamar",
+        "DELETE": "Eliminar de amigos",
+        "FOLLOW": "Seguir",
+        "STOP_FOLLOWING": "Dejar de seguir",
+        "POSTS": "Publicaciones",
+        "NO_POSTS": "Este usuario no tiene publicaciones, ¡esta vacío!",
+        "GET_MORE_BTN": "Obtener más publicaciones",
+        "EDIT": {
+            "TITLE": "Detalles del perfil",
+            "PICTURE_TITLE": "Foto de perfil",
+            "PICTURE_DROP": "Arrastra y suelta la foto aquí",
+            "DESCRIPTION_TITLE": "Descripción",
+            "DESCRIPTION_PLACEHOLDER": "Escribe tu descripción. Recuerda que solo puede tener un máximo de 200 caracteres.",
+            "NOTE": "Nota: Si desea cambiar las credenciales de inicio de sesión, por favor vaya a la pestaña Configuración.",
+            "PHOTO_BUTTON": "Selecciona una foto de perfil",
+            "EDIT_BUTTON": "Editar perfil",
+            "APPLY_BUTTON": "Aplicar",
+            "CANCEL_BUTTON": "Cancelar",
+            "CHANGES_SAVED": "Cambios guardados"
+        },
+        "LIKED_POSTS": {
+            "NO_POSTS": "Todavía no le diste like a ninguna publicación, ¿qué esperas?"
+        },
+        "USERS": {
+            "TITLE": "Usuarios",
+            "NON_FRIENDS_TITLE": "Este usuario no tiene amigos",
+            "NON_FRIENDS_TEXT": "¿Y si le envías una solicitud de amistad 😀?",
+            "NON_FRIENDS_KEYCLOAK_TITLE": "No tienes amigos",
+            "NON_FRIENDS_KEYCLOAK_TEXT": "No hay tiempo que perder, ¡agrega a alguien!",
+
+            "NON_FOLLOWERS_TITLE": "Este usuario no tiene seguidores",
+            "NON_FOLLOWERS_TEXT": "¿Y si lo sigues? 🤔",
+            "NON_FOLLOWERS_KEYCLOAK_TITLE": "No tienes seguidores",
+            "NON_FOLLOWERS_KEYCLOAK_TEXT": "Es hora de hacer la próxima publicación destacada ⌚",
+            
+            "NON_FOLLOWING_TITLE": "Este usuario no sigue a nadie",
+            "NON_FOLLOWING_TEXT": "¿Y si le recomienda a alguien? 🤔",
+            "NON_FOLLOWING_KEYCLOAK_TITLE": "No sigues a nadie",
+            "NON_FOLLOWING_KEYCLOAK_TEXT": "¿Por qué no buscas a alguien de tu interés? 🤔"
+        }
+    },
+    "NOTIFICATIONS": {
+        "TITLE": "Notificaciones",
+        "DELETE_ALL": "Eliminar todas",
+        "NEW_NOTIF_TITLE": "Nueva notificación",
+        "NEW_NOTIF_TEXT": "Por favor reinicie la página",
+        "friend_type": {
+            "TITLE": "¡Nuevo amigo!",
+            "TEXT": "ahora es tu amigo"
+        },
+        "like_post_type": {
+            "TITLE": "Tu publicación recibió un like",
+            "TEXT": "Ver"
+        },
+        "message_type": {
+            "TITLE": "te envió un mensaje",
+            "TEXT": "Pulsa para verlo"
+        },
+        "friendship_type": {
+            "TITLE": "Nueva petición de amistad",
+            "TEXT": "te envió una petición de amistad"
+        },
+        "comment_type": {
+            "TITLE": "respondió tu comentario",
+            "TEXT": "Pulsa para verlo"
+        },
+        "followership_type": {
+            "TITLE": "Nuevo seguidor",
+            "TEXT": "comenzó a seguirte"
+        },
+        "delete_account_type": {
+            "TITLE": "Se inició el proceso de eliminación de cuenta",
+            "TEXT": "Si se trata de un error, por favor comuníquese con nuestro soporte"
+        },
+        "NOTIFICATIONS_DISABLED": "Las notificaciones están deshabilitadas. Actívalas en la pestaña de Configuración para visualizarlas.",
+        "NO_NOTIFICATIONS": "No tienes notificaciones en este momento",
+        "NO_NOTIFICATIONS_TO_DELETE_TITLE": "No tienes notificaciones para eliminar",
+        "NO_NOTIFICATIONS_TO_DELETE_TEXT": "Recuerda que las peticiones de amistad no pueden ser eliminadas, solo rechazadas"
+    },
+    "SETTINGS": {
+        "TITLE": "Configuración",
+        "NOTIFICATIONS_TITLE": "Notificaciones",
+        "NOTIFICATIONS_TEXT": "Activa/desactiva las notificaciones (ya no aparecerán en la pestaña Notificaciones)",
+        "LANGUAGE_TITLE": "Idioma",
+        "LANGUAGE_TEXT": "Cambia el idioma del sistema",
+        "ACCOUNT_TITLE": "Administración de cuenta",
+        "ACCOUNT_TEXT": "Gestiona las credenciales de la cuenta",
+        "ACCOUNT_BUTTON": "Gestionar usuario",
+        "ADMIN_TITLE": "Panel de administración",
+        "ADMIN_TEXT": "Gestionar usuarios y reportes",
+        "ADMIN_BUTTON": "Ir",
+        "LOGOUT": "Cerrar sesión",
+        "DELETE_ACCOUNT": {
+            "TITLE": "Iniciar el proceso de eliminación de cuenta",
+            "TEXT": "Tendrás 14 días para arrepentirte",
+            "BUTTON": "Eliminar cuenta",
+            "MODAL_TITLE": "¿Está seguro?",
+            "MODAL_TEXT": "Tendrás 14 días para revertir esta acción contactando a nuestro soporte. Después de este intervalo, la cuenta se eliminará completamente.",
+            "MODAL_CONFIRM_BUTTON": "Iniciar proceso",
+            "MODAL_CANCEL_BUTTON": "Cancelar"
+        }
+    },
+    "SEARCH": {
+        "USERS_TITLE": "Usuarios encontrados",
+        "NON_USERS_TITLE": "No se encontraron usuarios",
+        "NON_USERS_TEXT": "Prueba con otro nombre para la búsqueda"
+    },
+    "FULL_POST": {
+        "COMMENTS_TITLE": "Comentarios",
+        "CREATE_COMMENT_PLACEHOLDER": "Comentar",
+        "NO_COMMENTS": "No hay comentarios, ¡sé el primero!"
+    },
+    "USER": {
+        "DELETE_MODAL_TITLE": "¿Está seguro?",
+        "DELETE_MODAL_TEXT": "Podrás reenviarle una solicitud de amistad a este usuario.",
+        "DELETE_MODAL_SAVE_BTN": "Eliminar",
+        "DELETE_MODAL_CANCEL_BTN": "Cancelar"
+    },
+    "POST": {
+        "DELETE_MODAL_TITLE": "¿Está seguro?",
+        "DELETE_MODAL_TEXT": "No podrá revertir esta acción",
+        "DELETE_MODAL_BUTTON_DELETE": "Eliminar",
+        "DELETE_MODAL_BUTTON_CANCEL": "Cancelar",
+        "REPORT_MODAL_TITLE": "¿Por qué quieres reportar esta publicación?",
+        "REPORT_MODAL_PLACEHOLDER": "Selecciona una razón",
+        "REPORT_MODAL_ERROR": "Debes seleccionar una opción válida",
+        "REPORT_MODAL_EXTRAINFORMATION_TITLE": "¿Quieres escribir información extra acerca del reporte?",
+        "REPORT_MODAL_EXTRAINFORMATION_PLACEHOLDER": "Esto es opcional. Máx. 200 caracteres.",
+        "REPORT_MODAL_SUCCESS": "La publicación a sido reportada correctamente",
+        "REPORT_MODAL_BUTTON_REPORT": "Reportar",
+        "REPORT_MODAL_BUTTON_CANCEL": "Cancelar"
+    },
+    "MESSAGE": {
+        "DELETE_MODAL_TITLE": "¿Estás seguro de que quieres eliminar este mensaje?",
+        "DELETE_MODAL_TEXT": "Esta acción no se podrá deshacer",
+        "DELETE_MODAL_BUTTON_DELETE": "Eliminar",
+        "DELETE_MODAL_BUTTON_CANCEL": "Cancelar"
+    },
+    "COMMENT": {
+        "SEE_ANSWERS_BTN": "Ver respuestas",
+        "REPLY_BTN": "Responder",
+        "REPLY_MODAL_TITLE": "Escribe una respuesta para este comentario",
+        "REPLY_MODAL_TEXT": "Máx. 100 caracteres.",
+        "REPLY_MODAL_REPLY_BUTTON": "Responder",
+        "REPLY_MODAL_CANCEL_BUTTON": "Cancelar"
+    },
+    "CHAT": {
+        "INVALID_MESSAGE_MODAL_TITLE": "Error",
+        "INVALID_MESSAGE_MODAL_TEXT": "El mensaje debe tener un texto o una foto",
+        "INVALID_FORMAT": "Formato de archivo inválido, tiene que ser una imagen"
+    },
+    "CALL": {
+        "IS_CALLING_YOU_TITLE": " te está llamando",
+        "IS_CALLING_YOU_TEXT": "¿Quiere contestar la llamada?",
+        "IS_CALLING_YOU_CONFIRM_BUTTON": "Sí",
+        "IS_CALLING_YOU_REJECT_BUTTON": "No",
+        "JOINING_CALL": "Uniéndose a la llamada...",
+        "USER_DISCONNECTED": "El usuario está desconectado",
+        "USER_ON_CALL": "El usuario está en otra llamada",
+        "CALLING_TITLE": "Llamando a ",
+        "CALLING_TEXT": "Por favor, espere...",
+        "FRIEND_REJECTED": "El usuario rechazó la llamada",
+        "END_CALL": "El usuario finalizó la llamada"
+    },
+    "WEBSOCKET": {
+        "NEW_NOTIFICATION": "Nueva notificación",
+        "CONNECTED_STATUS": "En línea",
+        "DISCONNECTED_STATUS": "Desconectado",
+        "WRITING_STATUS": "Escribiendo...",
+        "ONCALL_STATUS": "En llamada"
+    },
+    "LANGUAGES": {
+        "en": "English",
+        "es": "Español",
+        "pt": "Português (BR)"
+    },
+    "ERROR": {
+        "ROLE_TITLE": "Acceso denegado",
+        "ROLE_TEXT": "No tienes acceso a este recurso"
+    },
+    "ADMIN": {
+        "DELETE_PROCESS": {
+            "BUTTON": "Iniciar el proceso de eliminación",
+            "MODAL_TITLE": "¿Está seguro de que desea iniciar el proceso de eliminación de cuentas?",
+            "MODAL_TEXT": "Este proceso eliminará todas las cuentas que hayan iniciado el proceso de eliminación de cuenta hace 14 días o más. Puede tardar algún tiempo.",
+            "COMPLETED_MODAL_TITLE": "El proceso de eliminación de cuentas ha finalizado"
+        },
+        "USERS_PLACEHOLDER": "Busca por nombre, apellido o nombre de usuario",
+        "NO_USERS_SEARCHED": "Utiliza el buscador para encontrar usuarios",
+        "NO_USERS_FOUND": "No se encontraron usuarios",
+        "NO_REPORTS_FOUND": "No se encontraron reportes",
+        "REPORTS_DELETE_POST_TITLE": "¿Está seguro de que desea eliminar esta publicación?",
+        "REPORTS_DELETE_REPORT_TITLE": "¿Está seguro de que desea eliminar este reporte?",
+        "REPORTS_DELETE_TEXT": "Esta acción no se puede deshacer",
+        "REPORTS_DELETE_MODAL_BTN_DELETE": "Eliminar",
+        "REPORTS_DELETE_MODAL_BTN_CANCEL": "Cancelar",
+        "REPORTS_REASON": "Razón",
+        "REPORTS_USER_WHO_REPORTED": "Usuario que reportó",
+        "REPORTS_REPORTED_POST": "Publicación reportada",
+        "REPORTS_EXTRA_INFORMATION": "Información extra"
+    }
+}
