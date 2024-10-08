@@ -3,13 +3,14 @@ import { Injectable } from '@angular/core';
 import { KeycloakService } from 'keycloak-angular';
 import { catchError, Observable, throwError } from 'rxjs';
 import { User } from '../models/user';
+import { GlobalConstants } from 'src/environments/GlobalConstants';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
   private token = this.keycloakService.getKeycloakInstance().token;
-  private baseUrl = "http://localhost:8090/api/app/";
+  private baseUrl = GlobalConstants.spring_boot_auth_url + "/api/app/";
   public keycloakUser: User;
   public userIsOnAdminModule: boolean = false;
 
@@ -22,7 +23,7 @@ export class AuthService {
 
     console.log("print test starts-->")
     try{
-      this.http.get<any>('http://localhost:8090/api/foos/1').subscribe(data => {
+      this.http.get<any>(GlobalConstants.spring_boot_auth_url + '/api/foos/1').subscribe(data => {
         console.log("printing helloooo" + data)
     })  
     }
